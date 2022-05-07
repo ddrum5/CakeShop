@@ -28,7 +28,7 @@
                   <td>{$hoa_don->trang_thai}</td>
                   <td>
                   {if ($hoa_don->trang_thai) == 'Chưa xử lý'}
-                      <button type="button" onclick="updateAjax({$hoa_don->ma_hoa_don})" class="btn btn-success">Xử lý</button>
+                      <button type="button" onclick="updateAjax({$hoa_don->ma_hoa_don})" class="btn btn-success">Xác nhận đơn hàng</button>
                   {/if}
                       <button type="button" onclick="deleteAjax({$hoa_don->ma_hoa_don})" class="btn btn-danger">Xóa</button>
                   </td>

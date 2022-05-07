@@ -4,7 +4,7 @@ $c_index = new C_index();
 $c_index->hien_thi_trang_index();
 
 
-// include (admin/controllers/URL.php);
+// include ("admin/controllers/URL.php");
 
 // $myfile = fopen("E:\DINH\Desktop\product.csv", "r") or die("Unable to open file!");
 // // Output one line until end-of-file
@@ -12,7 +12,6 @@ $c_index->hien_thi_trang_index();
 //     echo makeURL(fgets($myfile)) . "<br>";
 //   }
 //   fclose($myfile);
-
 
 
 ?>

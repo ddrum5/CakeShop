@@ -1,5 +1,5 @@
 <?php
-include("controllers/c_hoa.php");
-$c_hoa = new C_hoa();
-$c_hoa->san_pham_da_xem();
-?>
+include("controllers/c_banh.php");
+$c_banh = new C_banh();
+$c_banh->san_pham_da_xem();
+?> 

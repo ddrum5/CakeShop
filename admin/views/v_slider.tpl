@@ -2,8 +2,9 @@
         <div class="card-header">
           <div class="row">
             <div class="col col-6">
-              <i class="fa fa-table"></i> Danh sách slider
+              <i class="fa fa-table"></i> Danh sách slider 
             </div>
+
             <div class="col col-6">
               <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#add" >Thêm slider mới</button>
             </div>

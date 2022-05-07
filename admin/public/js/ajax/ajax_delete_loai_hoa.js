@@ -1,7 +1,7 @@
 function deleteAjax(id){
     swal({
         title: "Bạn có đồng ý xóa",
-        text: "Sau khi đã bị xóa, bạn sẽ không thể khôi phục loại hoa này!",
+        text: "Sau khi đã bị xóa, bạn sẽ không thể khôi phục Loại bánh này!",
         icon: "warning",
         buttons: true,
         dangerMode: true,
@@ -16,7 +16,7 @@ function deleteAjax(id){
                     $('#delete'+id).hide('slow');
                 }
             })
-            swal("Loại hoa đã xóa thành công", {
+            swal("Loại bánh đã xóa thành công", {
                 icon: "success",
             });
         }

@@ -8,7 +8,7 @@
             </ul>
             <ul class="nav-accordion left">
                 <ul class="level0" style="display: block;">
-                    {foreach $doc_loai_hoa as $loai_hoa}
+                    {foreach $doc_loai_banh as $loai_hoa}
                     <li>
                         <span class="maLoai" id="maloai_{$loai_hoa->MaLoai}">{$loai_hoa->TenLoai}</span>
                     </li>

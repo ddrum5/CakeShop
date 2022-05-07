@@ -11,15 +11,15 @@
       <div class="modal-body">
         <form method="POST" action="hoa.php" id="uploadForm" enctype="multipart/form-data">
           <div class="form-group">
-            <label for="recipient-name" class="form-control-label">Loại hoa:</label>
+            <label for="recipient-name" class="form-control-label">Loại bánh:</label>
             <select class="form-control" name="loai_hoa">
-                {foreach $doc_loai_hoa as $loai_hoa}
+                {foreach $doc_loai_banh as $loai_hoa}
                   <option value="{$loai_hoa->MaLoai}">{$loai_hoa->TenLoai}</option>
                 {/foreach}
             </select>
           </div>
           <div class="form-group">
-            <label for="recipient-name" class="form-control-label">Tên hoa:</label>
+            <label for="recipient-name" class="form-control-label">Tên bánh:</label>
             <input type="text" class="form-control" name="ten_hoa" autocomplete="off" maxlength="50" required>
           </div>
           <div class="form-group">

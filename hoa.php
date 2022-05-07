@@ -1,5 +1,5 @@
 <?php
-include("controllers/c_hoa.php");
-$c_hoa = new C_hoa();
-$c_hoa->hien_thi_trang_hoa();
+include("controllers/c_banh.php");
+$c_banh = new C_banh();
+$c_banh->hien_thi_trang_hoa();
 ?>

@@ -1,12 +1,11 @@
 <header class="row">
-    <div id="bsm_header_mobile">
+    {* <div id="bsm_header_mobile">
         <i class="bsm_header_mobile_nav_button fa fa-bars" aria-hidden="true"></i>
         <i class="bsm_header_mobile_nav_button fa fa-times" aria-hidden="true"></i>
         <i class="bsm_header_mobile_search_button fa fa-search" aria-hidden="true"></i>
     </div>
     <div class="col-md-2 bsm_logo">
         <a href=".">
-
             <img src="public/images/logo/{$logo}" alt="" style="width: 160px;height: 68px;">
         </a>
     </div>
@@ -35,7 +34,7 @@
                 </div>
             </label>
         </form>
-    </div>
+    </div> *}
 
     <div id="bsm_header_top_bar">
         <div class="container">
@@ -47,7 +46,8 @@
                     <li>
                         <div class="khung-tim-kiem-pc">
                             <form class="form-inline" method="post" autocomplete="off">
-                                <input name="search" id="search" class="form-control mr-sm-2" type="text" placeholder="Nhập tên bánh cần tìm kiếm">
+                                <input name="search" id="search" class="form-control mr-sm-2" type="text"
+                                    placeholder="Tìm kiếm bánh">
                             </form>
                             <div class="hien-thi-tim-kiem">
                                 <div id="result-tenHoa"></div>
@@ -58,21 +58,21 @@
             </div>
             <div class="col-md-3 col-sm-8 canh_trai">
                 <ul>
-                 {if isset($smarty.session.hoTen)}
-                    <li>
-                        Xin Chào {$smarty.session.hoTen}
-                    </li>
-                    <li>
-                        <a href="dang-xuat.html">Đăng Xuất</a>
-                    </li>
-                {else}
-                    <li>
-                        <a href="dang-nhap.html">Đăng Nhập</a>
-                    </li>
-                    <li>
-                       <a href="dang-ki.html">Đăng Kí</a>
-                    </li>
-                {/if}
+                    {if isset($smarty.session.hoTen)}
+                        <li>
+                            <a href="."> Xin Chào {$smarty.session.hoTen} </a>
+                        </li>
+                        <li>
+                            <a data-toggle="modal" data-target="#exampleModal" href="">Đăng Xuất</a>
+                        </li>
+                    {else}
+                        <li>
+                            <a href="dang-nhap.html">Đăng Nhập</a>
+                        </li>
+                        <li>
+                            <a href="dang-ki.html">Đăng Kí</a>
+                        </li>
+                    {/if}
                 </ul>
             </div>
         </div>
@@ -81,16 +81,16 @@
         <div class="col-md-5">
             <nav>
                 <ul class="bsm_header_nav_left">
-                    <li ><a href=".">Trang chủ</a></li>
+                    <li><a href=".">Trang chủ</a></li>
                     <li><a href="gioi_thieu.php">Giới thiệu</a></li>
                     <li><a href="danh-sach-hoa">Danh sách bánh</a></li>
                 </ul>
             </nav>
         </div>
-        <div class="col-md-2">
-            <a href=".">   
-            <img src="public/images/logo/{$logo}" alt="" style="width: 165px;height: 130px;">
-        </a>
+        <div class="col-md-5">
+            <a href=".">
+                <img src="public/images/logo/{$logo}" alt="" style="width: 165px;height: 130px;">
+            </a>
         </div>
         <div class="col-md-5">
             <nav>

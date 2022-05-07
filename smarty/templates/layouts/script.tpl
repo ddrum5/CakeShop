@@ -32,7 +32,7 @@
 <script type="text/javascript">
   $('#gotop').gotop({
     background: '#FF3366',
-    bottom : '100px',
+    bottom : '130px',
     mobileOnly: false
   });
 </script>

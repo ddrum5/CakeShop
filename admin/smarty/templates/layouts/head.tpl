@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-<base href="http://localhost/shop_hoa/admin/"/>
+<base href="http://localhost/banhngotanan/admin/"/>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">

@@ -1,7 +1,7 @@
 <div class="register">
 		<div class="container">
 			<h2 class="h2Login">Đăng kí tại đây</h2>
-			<div class="login-form-grids">
+			<div class="login-form-grids"> 
 				<h5>Thông tin cá nhân</h5>
 				<form method="post">
 					<input type="text" name="hoTen" placeholder="Họ tên..." required=" ">
@@ -14,7 +14,7 @@
 					<input type="password" placeholder="Nhập Lại Mật khẩu..." required=" " >
 					<input type="submit" name="dang_ki" value="Đăng Kí">
 				</form>
-			</div>
+			</div> 
 			<div class="register-home">
 				<a href=".">Trở Về Trang chủ</a>
 			</div>

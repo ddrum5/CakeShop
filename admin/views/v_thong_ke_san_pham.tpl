@@ -2,7 +2,7 @@
     <thead>
       <tr>
         <th>Mã hoa</th>
-        <th>Tên hoa</th>
+        <th>Tên bánh</th>
         <th>Hình</th>
         <th>Giá KM</th>
         <th>SL Hoa</th>

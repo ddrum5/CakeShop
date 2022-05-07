@@ -1,5 +1,5 @@
 <?php
-require_once("database.php");
+require_once("database.php"); 
 class M_hoa_don extends database
 {
     public function xem_hoa_don_chua_duyet()

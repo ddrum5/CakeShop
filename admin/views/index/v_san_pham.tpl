@@ -25,7 +25,7 @@
         <div class="card-body-icon">
           <i class="fa fa-fw fa-info"></i>
         </div>
-        <div class="mr-5" style="font-size: 14px">có {$dem_loai_hoa} loại hoa đang bán</div>
+        <div class="mr-5" style="font-size: 14px">có {$dem_loai_hoa} Loại bánh đang bán</div>
       </div>
     </div>
   </div>

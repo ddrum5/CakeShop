@@ -6,9 +6,9 @@ class C_gio_hang
     public function them_gio_hang() 
     {
         if (isset($_POST['MaHoa']) && isset($_POST['sl'])) {
-            include("models/m_hoa.php");
-            $m_hoa=new M_hoa();
-            $hoa=$m_hoa->doc_hoa_theo_ma($_POST['MaHoa']);
+            include("models/m_banh.php");
+            $m_banh=new M_banh();
+            $hoa=$m_banh->doc_banh_theo_ma($_POST['MaHoa']);
             if($_POST['sl'] > 10){
                 echo 'loi';
                 return;
@@ -44,9 +44,9 @@ class C_gio_hang
     public function hien_gio_hang()
     {
         if (isset($_POST['showcart'])) {
-            include("models/m_hoa.php");
-            $m_hoa=new M_hoa();
-            $hoa=$m_hoa->doc_tat_ca_hoa();
+            include("models/m_banh.php");
+            $m_banh=new M_banh();
+            $hoa=$m_banh->doc_tat_ca_banh();
             include("Smarty_shop_hoa.php");
             $smarty = new Smarty_Shop_Hoa();
             $smarty->assign('hoa', $hoa);
@@ -56,10 +56,10 @@ class C_gio_hang
     public function tang_giam_sl()
     {
         if (isset($_POST["mahoa"])) {
-            include("models/m_hoa.php");
-            $m_hoa=new M_hoa();
+            include("models/m_banh.php");
+            $m_banh=new M_banh();
             $id=$_POST['mahoa'];
-            $hoa=$m_hoa->doc_hoa_theo_ma($id);
+            $hoa=$m_banh->doc_banh_theo_ma($id);
             foreach ($_SESSION["giohang"] as $k=>$value) {
                 if ($k == $id) {
                     if (isset($_POST['tang'])) {
@@ -94,9 +94,9 @@ class C_gio_hang
     }
     public function cap_nhap_tong_tt()
     {
-        include("models/m_hoa.php");
-        $m_hoa=new M_hoa();
-        $hoa=$m_hoa->doc_tat_ca_hoa();
+        include("models/m_banh.php");
+        $m_banh=new M_banh();
+        $hoa=$m_banh->doc_tat_ca_banh();
         $tong_tt=0;
         $tong_sl=0;
         foreach ($_SESSION["giohang"] as $k=>$value) {

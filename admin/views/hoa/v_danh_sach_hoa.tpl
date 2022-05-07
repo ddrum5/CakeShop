@@ -2,8 +2,8 @@
   <thead>
     <tr>
       <th>Hình</th>
-      <th>Tên hoa</th>
-      <th>Loại hoa</th>
+      <th>Tên bánh</th>
+      <th>Loại bánh</th>
       <th>Giá</th>
       <th>Giá KM</th>
       <th>SL</th>

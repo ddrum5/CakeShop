@@ -157,7 +157,7 @@ function updateCartTotal(price) {
 function addProduct(MaHoa, sl) {
   $.ajax({
     type: 'post',
-    url: 'gio_hang.php',
+    url: 'gio_hang.php', 
     data: {
       MaHoa: MaHoa,
       sl: sl,

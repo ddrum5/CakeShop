@@ -8,10 +8,10 @@ class C_index
         //Model
         include("models/m_index.php");
         $m_index = new M_index();
-        $doc_hoa = $m_index->doc_tat_ca_hoa();
-        $doc_hoa_khuyen_mai=$m_index->doc_hoa_giam_gia();
+        $doc_hoa = $m_index->doc_tat_ca_banh();
+        $doc_hoa_khuyen_mai=$m_index->doc_banh_giam_gia();
         $doc_hoa_moi=$m_index->doc_hoa_moi();
-        $doc_hoa_ban_chay=$m_index->doc_hoa_ban_chay();
+        $doc_hoa_ban_chay=$m_index->doc_banh_ban_chay();
         $san_pham_giam_gia=$m_index->san_pham_giam_gia();
         $san_pham_noi_bat=$m_index->san_pham_noi_bat();
         $san_pham_re_nhat=$m_index->san_pham_re_nhat();
@@ -36,6 +36,6 @@ class C_index
         $smarty->assign('tin_tuc', $tin_tuc);
         $smarty->assign('doc_slider', $doc_slider);
         $smarty->assign('doc_thong_tin', $doc_thong_tin);
-        $smarty->display("layout_trang_chu.tpl");
+        $smarty->display("layout.tpl");
     }
 }

@@ -12,16 +12,16 @@
         <form method="POST" id="uploadForm{$hoa->MaHoa}" action="hoa.php" enctype="multipart/form-data">
           <input type="hidden" name="ma_hoa" value="{$hoa->MaHoa}">
           <div class="form-group">
-            <label for="recipient-name" class="form-control-label">Loại hoa:</label>
+            <label for="recipient-name" class="form-control-label">Loại bánh:</label>
             <select class="form-control" name="loai_hoa">
                 <option value="{$hoa->MaLoai}">{$hoa->TenLoai}</option>
-                {foreach $doc_loai_hoa as $loai_hoa}
+                {foreach $doc_loai_banh as $loai_hoa}
                   <option value="{$loai_hoa->MaLoai}">{$loai_hoa->TenLoai}</option>
                 {/foreach}
             </select>
           </div>
           <div class="form-group">
-            <label for="recipient-name" class="form-control-label">Tên hoa:</label>
+            <label for="recipient-name" class="form-control-label">Tên bánh:</label>
             <input type="text" class="form-control" name="ten_hoa" value="{$hoa->TenHoa}" autocomplete="off">
           </div>
           <div class="form-group">

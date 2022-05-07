@@ -297,7 +297,7 @@ p {
   width: 100%;
   height: 50px;
   line-height: 50px;
-  background-color: #FBF9F5;
+  background-color: #2b2b2b;
   color: #725754;
 }
 
@@ -307,6 +307,7 @@ p {
   display: inline-block;
   position: relative;
   margin-right: 10px;
+  color: #FFFFFF;
 }
 
 #bsm_header_top_bar ul li:after {
@@ -319,7 +320,7 @@ p {
 }
 
 #bsm_header_top_bar ul li a {
-  color: #725754;
+  color: #ffffff;
 }
 
 #bsm_header_top_bar ul li form {
@@ -4115,7 +4116,7 @@ button.button {
 }
 
 .mau_hoa {
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .mau_hoa_moi {
@@ -4671,7 +4672,8 @@ button.button {
     text-decoration: none;
 }
 .canh_trai{
-  text-align: right;
+  text-align: left;
+
 }
 .actions-no{
   margin-top: -7px;

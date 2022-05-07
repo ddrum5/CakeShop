@@ -1,12 +1,12 @@
  <div class="card-header">
-    <i class="fa fa-table"></i> Danh sách hoa hết hàng</div>
+    <i class="fa fa-table"></i> Danh sách bánh hết hàng</div>
   <div class="card-body">
     <div class="table-responsive">
       <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
         <thead>
     <tr>
       <th>Hình</th>
-      <th>Tên hoa</th>
+      <th>Tên bánh</th>
       <th>Số Lượng</th>
     </tr>
   </thead>

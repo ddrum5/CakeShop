@@ -14,6 +14,7 @@
             <tr class="bang_don_hang">
               <td class="ten_hoa_kh">
                 <a href="san-pham/{$sp->TenHoa_URL}-{$sp->MaHoa}.html">{$sp->TenHoa}</a>
+                
               </td>
               <td>
                 <div class="sl_kh">x{$gh}</div>
