@@ -5,6 +5,7 @@ class C_index
 {
     function hien_thi_trang_index()
     {
+        
         include("models/m_index.php");
         $m_index = new M_index();
         if ($_COOKIE['permission'] == 0 || $_COOKIE['permission'] == 1) {

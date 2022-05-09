@@ -1,13 +1,12 @@
     <div id="bsm_contact">
         <div class="col-md-12 col-sm-12 col-xs-12 bsm_title_section" style="margin-top: 30px">
         <h1>{$title}</h1>
-            <img src="public/img/divider.png" alt="">
         </div>
     </div>
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-                <img src="http://45.77.235.110/~chufarmc/public/img/error.jpg" alt="">
+                {* <img src="https://i.pinimg.com/222x/3a/69/ae/3a69ae3942d4a9da6c3cbc93b1c8f051.jpg" alt=""> *}
             </div>
             <div class="col-lg-8">
                     <div class="row">

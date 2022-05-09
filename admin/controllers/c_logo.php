@@ -38,8 +38,8 @@ class C_logo
                     }
                 }
             }else{
-                $hinh = $hinh;
-                $update = $m_logo->update_logo($hinh);
+                $hinhMoi = $hinh;
+                $update = $m_logo->update_logo($hinhMoi);
                 if($update){
                     $_SESSION['success']="Cập nhật logo thành công";
                 }

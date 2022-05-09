@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top print" id="mainNav">
-  <a class="navbar-brand" href="../">Trang quản trị Bánh ngọt An An</a>
+  <a class="navbar-brand" href=".">Trang quản trị Bánh ngọt An An</a>
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
     data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
     aria-label="Toggle navigation">
@@ -202,7 +202,7 @@
 
       {/if}
       <li class="nav-item">
-        <a class="nav-link">Xin chào
+        <a class="nav-link">
           {if isset($smarty.cookies.hoTen)}
             {$smarty.cookies.hoTen}
           {/if}

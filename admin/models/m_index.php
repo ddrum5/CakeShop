@@ -36,7 +36,7 @@ class M_index extends database
     }
     public function so_hoa_don_chua_duyet_trong_ngay()
     {
-        $sql = "select * from hoa_don WHERE day(ngay_dat) = day(curdate()) and trang_thai = 'Chưa xử lý'";
+        $sql = "select * from hoa_don WHERE day(ngay_dat) = day(curdate()) and trang_thai = 0";
         $this->setQuery($sql);
         return $this->loadAllRows();
     }

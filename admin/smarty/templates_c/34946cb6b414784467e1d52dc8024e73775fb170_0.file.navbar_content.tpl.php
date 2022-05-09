@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2022-05-07 16:19:12
+/* Smarty version 3.1.30, created on 2022-05-09 04:10:24
   from "D:\Programs\xampp\htdocs\banhngotanan\admin\smarty\templates\layouts\content\navbar_content.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_62767fe0c38e81_18328172',
+  'unifunc' => 'content_627878101715c9_67477116',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '34946cb6b414784467e1d52dc8024e73775fb170' => 
     array (
       0 => 'D:\\Programs\\xampp\\htdocs\\banhngotanan\\admin\\smarty\\templates\\layouts\\content\\navbar_content.tpl',
-      1 => 1651921543,
+      1 => 1652061510,
       2 => 'file',
     ),
   ),
@@ -20,10 +20,10 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_62767fe0c38e81_18328172 (Smarty_Internal_Template $_smarty_tpl) {
+function content_627878101715c9_67477116 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top print" id="mainNav">
-  <a class="navbar-brand" href="../">Trang quản trị Bánh ngọt An An</a>
+  <a class="navbar-brand" href=".">Trang quản trị Bánh ngọt An An</a>
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
     data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
     aria-label="Toggle navigation">
@@ -222,7 +222,7 @@ function content_62767fe0c38e81_18328172 (Smarty_Internal_Template $_smarty_tpl)
 
       <?php }?>
       <li class="nav-item">
-        <a class="nav-link">Xin chào
+        <a class="nav-link">
           <?php if (isset($_COOKIE['hoTen'])) {?>
             <?php echo $_COOKIE['hoTen'];?>
 

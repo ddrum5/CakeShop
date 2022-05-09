@@ -7,4 +7,15 @@ class M_check_hoa_don extends database
         $this->setQuery($sql);
         return $this->loadAllRows();
     }
+
+    function timHoaDonTheoMaKH($maKH){
+        $sql = "select hd.*, kh.ten_khach_hang, kh.dien_thoai, ct.so_luong, ct.MaHoa, h.TenHoa, h.TenHoa_URL 
+        FROM hoa_don hd INNER JOIN khach_hang kh ON kh.ma_khach_hang = hd.ma_khach_hang 
+        INNER JOIN chi_tiet_hoa_don ct ON ct.ma_hoa_don = hd.ma_hoa_don INNER JOIN hoa h ON h.MaHoa = ct.MaHoa 
+        WHERE kh.ma_khach_hang=$maKH ORDER BY hd.ngay_dat DESC";
+        $this->setQuery($sql);
+        return $this->loadAllRows();
+    }
+
+
 }

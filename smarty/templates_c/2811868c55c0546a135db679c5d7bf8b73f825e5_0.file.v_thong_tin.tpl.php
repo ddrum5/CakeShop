@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.30, created on 2022-05-07 13:28:24
+/* Smarty version 3.1.30, created on 2022-05-09 10:04:58
   from "D:\Programs\xampp\htdocs\banhngotanan\views\khach_hang\v_thong_tin.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_627657d8590773_04305797',
+  'unifunc' => 'content_6278cb2ae1deb7_21325499',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_627657d8590773_04305797 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6278cb2ae1deb7_21325499 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="col-md-6 product-left-block">
   <h3 class="canh_giua khach_hang thong_tin">Thông tin</h3>

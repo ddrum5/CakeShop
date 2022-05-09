@@ -4,6 +4,7 @@ class C_index
 {
     public function hien_thi_trang_index()
     {
+
         include("c_data_contact.php");
         //Model
         include("models/m_index.php");

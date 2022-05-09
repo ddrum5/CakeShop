@@ -11,6 +11,6 @@ class C_lien_he
         $title = "Liên hệ";
         $view = "views/v_lien_he.tpl";
         include("c_smarty_info.php");
-        $smarty->display("gioi_thieu/layout.tpl");
+        $smarty->display("smarty/templates/gioi_thieu/layout.tpl");
     }
 }

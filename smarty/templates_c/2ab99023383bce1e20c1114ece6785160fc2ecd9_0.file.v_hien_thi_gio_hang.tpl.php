@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.30, created on 2022-05-07 13:28:23
+/* Smarty version 3.1.30, created on 2022-05-09 10:04:57
   from "D:\Programs\xampp\htdocs\banhngotanan\views\v_hien_thi_gio_hang.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_627657d749c6b3_29329835',
+  'unifunc' => 'content_6278cb29ebbdc9_74973509',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_627657d749c6b3_29329835 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6278cb29ebbdc9_74973509 (Smarty_Internal_Template $_smarty_tpl) {
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_SESSION['giohang'], 'gh');
 if ($_from !== null) {
 foreach ($_from as $_smarty_tpl->tpl_vars['gh']->key => $_smarty_tpl->tpl_vars['gh']->value) {

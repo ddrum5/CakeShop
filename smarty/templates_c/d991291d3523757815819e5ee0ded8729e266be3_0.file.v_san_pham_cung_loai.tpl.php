@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.30, created on 2022-05-07 10:55:03
+/* Smarty version 3.1.30, created on 2022-05-08 08:32:27
   from "D:\Programs\xampp\htdocs\banhngotanan\views\chi_tiet_hoa\v_san_pham_cung_loai.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_627633e7d30b76_56853195',
+  'unifunc' => 'content_627763fb1563d0_60231385',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_627633e7d30b76_56853195 (Smarty_Internal_Template $_smarty_tpl) {
+function content_627763fb1563d0_60231385 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="container">
   <ul class="magictabs">

@@ -5,7 +5,7 @@ function deleteAjax(id){
         icon: "warning",
         buttons: true,
         dangerMode: true,
-      })
+      }) 
       .then((isConfirm) => {
         if (isConfirm) {
             $.ajax({
@@ -16,7 +16,7 @@ function deleteAjax(id){
                     $('#delete'+id).hide('slow');
                 }
             })
-            swal("Slider đã xóa thành công", {
+            swal("Đã xóa khách hàng", {
                 icon: "success",
             });
         }

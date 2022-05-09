@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.30, created on 2022-05-07 10:54:53
+/* Smarty version 3.1.30, created on 2022-05-08 08:31:42
   from "D:\Programs\xampp\htdocs\banhngotanan\views\hoa\v_tim_theo_loai_don_gia.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_627633ddb6ac64_48470796',
+  'unifunc' => 'content_627763ceb68166_35312135',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_627633ddb6ac64_48470796 (Smarty_Internal_Template $_smarty_tpl) {
+function content_627763ceb68166_35312135 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="col-left sidebar col-lg-3 col-md-3 col-sm-3 col-xs-12 left-color color f-left">
     <div class="anav-container">

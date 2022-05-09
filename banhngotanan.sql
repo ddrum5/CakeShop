@@ -326,7 +326,7 @@ CREATE TABLE `quang_cao` (
 --
 
 INSERT INTO `quang_cao` (`id`, `TieuDe`, `Hinh`, `DuongDan`, `ThoiGian`) VALUES
-(1, 'QC1 Hoa', 'Banner-cuoi-trang-1.jpg', 'danh-sach-hoa.html', '2022-01-12 18:16:49'),
+(1, 'QC1 Hoa', 'Banner-cuoi-trang-1.jpg', 'danh-sach-banh.html', '2022-01-12 18:16:49'),
 (2, 'bac', '88335948_100310818267090_5073364426875207680_n.jpg', 'ddd?', '2022-04-29 14:38:46');
 
 -- --------------------------------------------------------
@@ -348,9 +348,9 @@ CREATE TABLE `slider` (
 --
 
 INSERT INTO `slider` (`id`, `TieuDe`, `Hinh`, `DuongDan`, `ThoiGian`) VALUES
-(1, 'Khai trương shop', '1.jpg', 'danh-sach-hoa', '2022-12-17 13:03:06'),
-(2, 'Khuyến mãi noel', '2.png', 'danh-sach-hoa', '2022-12-17 11:47:09'),
-(3, 'Khuyến mãi noel', '3.png', 'danh-sach-hoa', '2022-12-17 11:47:09');
+(1, 'Khai trương shop', '1.jpg', 'danh-sach-banh', '2022-12-17 13:03:06'),
+(2, 'Khuyến mãi noel', '2.png', 'danh-sach-banh', '2022-12-17 11:47:09'),
+(3, 'Khuyến mãi noel', '3.png', 'danh-sach-banh', '2022-12-17 11:47:09');
 
 -- --------------------------------------------------------
 

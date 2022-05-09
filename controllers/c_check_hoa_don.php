@@ -1,7 +1,7 @@
 
 <?php
 session_start();
-unset($_SESSION["status"]);
+unset($_SESSION["status"]); 
 error_reporting(0);
 class C_check_hoa_don
 {
@@ -31,6 +31,6 @@ class C_check_hoa_don
         include("c_smarty_info.php");
         //Smarty check hoa don
         $smarty->assign('hoa_dons', $hoa_dons);
-        $smarty->display("gioi_thieu/layout.tpl");
+        $smarty->display("smarty/templates/gioi_thieu/layout.tpl");
     }
 }

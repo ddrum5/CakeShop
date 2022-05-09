@@ -23,7 +23,7 @@ class C_loai_hoa
                 }
             }
         }
-        if(isset($_POST['btn_add'])){
+        if(isset($_POST['btn_add'])){ 
             $tenLoai = $_POST['ten_loai'];
             $kiem_tra = $m_loai_banh->kiem_tra_loai_banh($tenLoai);
             if(!$kiem_tra){

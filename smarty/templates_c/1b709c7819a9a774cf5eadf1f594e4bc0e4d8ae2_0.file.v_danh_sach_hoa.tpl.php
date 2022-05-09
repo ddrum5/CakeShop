@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.30, created on 2022-05-07 10:49:02
+/* Smarty version 3.1.30, created on 2022-05-08 08:29:35
   from "D:\Programs\xampp\htdocs\banhngotanan\views\hoa\v_danh_sach_hoa.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_6276327e477936_20019478',
+  'unifunc' => 'content_6277634f3b1145_34357830',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6276327e477936_20019478 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6277634f3b1145_34357830 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
     <div class="category-products">
         <ul class="products-grid row aos-all" id="transcroller-body">

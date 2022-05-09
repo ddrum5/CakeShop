@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2022-05-07 12:52:14
+/* Smarty version 3.1.30, created on 2022-05-09 16:16:17
   from "D:\Programs\xampp\htdocs\banhngotanan\views\v_lien_he.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_62764f5e30ae22_56465760',
+  'unifunc' => 'content_62792231afb7e1_98835681',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e6902ef502d7bdada83a021cae9b365a023ef160' => 
     array (
       0 => 'D:\\Programs\\xampp\\htdocs\\banhngotanan\\views\\v_lien_he.tpl',
-      1 => 1651195238,
+      1 => 1652105775,
       2 => 'file',
     ),
   ),
@@ -20,13 +20,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_62764f5e30ae22_56465760 (Smarty_Internal_Template $_smarty_tpl) {
+function content_62792231afb7e1_98835681 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div id="bsm_contact">
   <div class="col-md-12 col-sm-12 col-xs-12 bsm_title_section" style="margin-top: 30px">
     <h1><?php echo $_smarty_tpl->tpl_vars['title_website']->value;?>
 </h1>
-      <img src="public/img/divider.png" alt="">
+      
   </div>
 </div>
 <div class="container">

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.30, created on 2022-05-07 10:55:03
+/* Smarty version 3.1.30, created on 2022-05-08 08:32:26
   from "D:\Programs\xampp\htdocs\banhngotanan\views\v_chi_tiet_hoa.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_627633e7b71957_34319505',
+  'unifunc' => 'content_627763faec1725_35519854',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -28,7 +28,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:views/v_gio_hang_ajax.tpl' => 1,
   ),
 ),false)) {
-function content_627633e7b71957_34319505 (Smarty_Internal_Template $_smarty_tpl) {
+function content_627763faec1725_35519854 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("file:views/chi_tiet_hoa/v_thanh_danh_muc.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 

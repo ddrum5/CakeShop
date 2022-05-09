@@ -38,7 +38,7 @@
     {/foreach}
         </ul>
         <div class="cta">
-            <button onclick="location.href='danh-sach-hoa'">Xem thêm bánh <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+            <button onclick="location.href='danh-sach-banh'">Xem thêm bánh <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
         </div>
     </div>
 </div>

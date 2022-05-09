@@ -5,7 +5,7 @@
         <th>Tên bánh</th>
         <th>Hình</th>
         <th>Giá KM</th>
-        <th>SL Hoa</th>
+        <th>Số lượng bánh</th>
         <th>Tổng doanh thu</th>
       </tr>
     </thead>

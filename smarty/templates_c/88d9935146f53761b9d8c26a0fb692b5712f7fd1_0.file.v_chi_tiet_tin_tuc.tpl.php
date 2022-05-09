@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.30, created on 2022-05-07 12:52:40
+/* Smarty version 3.1.30, created on 2022-05-08 08:31:41
   from "D:\Programs\xampp\htdocs\banhngotanan\views\v_chi_tiet_tin_tuc.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_62764f78b36131_92774816',
+  'unifunc' => 'content_627763cd37b195_72256283',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:layouts/body/quang_cao.tpl' => 1,
   ),
 ),false)) {
-function content_62764f78b36131_92774816 (Smarty_Internal_Template $_smarty_tpl) {
+function content_627763cd37b195_72256283 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <div class="container">

@@ -12,7 +12,7 @@
     <nav id="bsm_header_mobile_nav"><ul class="bsm_header_nav_left">
             <li ><a href=".">Trang chủ</a></li>
             <li><a href="gioi_thieu.php">Giới thiệu</a></li>
-            <li><a href="danh-sach-hoa">Danh sách bánh</a></li>
+            <li><a href="danh-sach-banh">Danh sách bánh</a></li>
         </ul>
         <ul class="bsm_header_nav_left">
             <li><a href="tin_tuc.php">Tin Tức</a></li>
@@ -60,7 +60,17 @@
                 <ul>
                     {if isset($smarty.session.hoTen)}
                         <li>
-                            <a href="."> Xin Chào {$smarty.session.hoTen} </a>
+                            {* <a href="."> Xin Chào<b> {$smarty.session.hoTen} </b> </a> *}
+                            <div class="dropdown_text">
+                                {* <button class="dropbtn">Dropdown</button>  *}
+
+                                <a  class="dropbtn"> <b> {$smarty.session.hoTen} </b> </a>
+                                <div class="dropdown-content">
+                                    <a href="thong_tin_ca_nhan.php">Thông tin cá nhân</a>
+                                    <a href="lich_su_mua_hang.php">Lịch sử mua hàng</a>
+                                </div>
+                            </div>
+
                         </li>
                         <li>
                             <a data-toggle="modal" data-target="#exampleModal" href="">Đăng Xuất</a>
@@ -83,7 +93,7 @@
                 <ul class="bsm_header_nav_left">
                     <li><a href=".">Trang chủ</a></li>
                     <li><a href="gioi_thieu.php">Giới thiệu</a></li>
-                    <li><a href="danh-sach-hoa">Danh sách bánh</a></li>
+                    <li><a href="danh-sach-banh">Danh sách bánh</a></li>
                 </ul>
             </nav>
         </div>

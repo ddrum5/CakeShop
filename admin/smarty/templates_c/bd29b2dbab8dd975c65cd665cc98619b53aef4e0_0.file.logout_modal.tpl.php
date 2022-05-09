@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.30, created on 2022-05-07 16:19:12
+/* Smarty version 3.1.30, created on 2022-05-08 08:25:34
   from "D:\Programs\xampp\htdocs\banhngotanan\admin\smarty\templates\layouts\content\logout_modal.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_62767fe0d6a0f7_15406028',
+  'unifunc' => 'content_6277625ec29077_01579717',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_62767fe0d6a0f7_15406028 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6277625ec29077_01579717 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="modal fade print" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
       <div class="modal-dialog" role="document">

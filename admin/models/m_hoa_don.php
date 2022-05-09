@@ -4,19 +4,19 @@ class M_hoa_don extends database
 {
     public function xem_hoa_don_chua_duyet()
     {
-        $sql="SELECT * FROM hoa_don inner join khach_hang on khach_hang.ma_khach_hang=hoa_don.ma_khach_hang where trang_thai='Chưa xử lý' ORDER BY ngay_dat DESC";
+        $sql="SELECT * FROM hoa_don inner join khach_hang on khach_hang.ma_khach_hang=hoa_don.ma_khach_hang where trang_thai=0 ORDER BY ngay_dat DESC";
         $this->setQuery($sql);
         return $this->loadAllRows();
     }
     public function xem_hoa_don_da_duyet()
     {
-        $sql="SELECT * FROM hoa_don inner join khach_hang on khach_hang.ma_khach_hang=hoa_don.ma_khach_hang where trang_thai='Đã xử lý' ORDER BY ngay_dat DESC";
+        $sql="SELECT * FROM hoa_don inner join khach_hang on khach_hang.ma_khach_hang=hoa_don.ma_khach_hang where trang_thai > 0 ORDER BY ngay_dat DESC";
         $this->setQuery($sql);
         return $this->loadAllRows();
     }
     public function xem_hoa_don_chua_xu_ly_hom_nay()
     {
-        $sql="SELECT * FROM hoa_don inner join khach_hang on khach_hang.ma_khach_hang=hoa_don.ma_khach_hang WHERE day(ngay_dat) = day(CURDATE()) and hoa_don.trang_thai = 'Chưa xử lý'";
+        $sql="SELECT * FROM hoa_don inner join khach_hang on khach_hang.ma_khach_hang=hoa_don.ma_khach_hang WHERE day(ngay_dat) = day(CURDATE()) and hoa_don.trang_thai = 0";
         $this->setQuery($sql);
         return $this->loadAllRows();
     }

@@ -10,7 +10,7 @@
 
       <div class="col col-6">
         <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#add">
-        Thêm loại bánh mới</button>
+          Thêm loại bánh mới</button>
       </div>
     </div>
   </div>
@@ -18,10 +18,11 @@
   <div class="card-body">
     <div class="table-responsive">
       {include file="views/loai_hoa/v_danh_sach_loai_hoa.tpl"}
-    </div> 
+    </div>
   </div>
   <script src="public/js/ajax/ajax_delete_loai_hoa.js"></script>
   <script src="public/js/ajax/ajax_kt_trung_loai_hoa.js"></script>
+
   {if isset($smarty.session.thongBao)}
     <script>
       swal("{$smarty.session.thongBao}");

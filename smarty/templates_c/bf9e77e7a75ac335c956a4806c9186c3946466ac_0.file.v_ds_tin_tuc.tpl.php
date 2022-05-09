@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.30, created on 2022-05-07 12:52:35
+/* Smarty version 3.1.30, created on 2022-05-08 08:30:35
   from "D:\Programs\xampp\htdocs\banhngotanan\views\tin_tuc\v_ds_tin_tuc.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_62764f73447961_24007693',
+  'unifunc' => 'content_6277638b73b6f1_24616598',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_62764f73447961_24007693 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6277638b73b6f1_24616598 (Smarty_Internal_Template $_smarty_tpl) {
 if (!is_callable('smarty_modifier_date_format')) require_once 'D:\\Programs\\xampp\\htdocs\\banhngotanan\\smarty\\libs\\plugins\\modifier.date_format.php';
 ?>
 <div class="col-main container-fluid noi_dung_tt">

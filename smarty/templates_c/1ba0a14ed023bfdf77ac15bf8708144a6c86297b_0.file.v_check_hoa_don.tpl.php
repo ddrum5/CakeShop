@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2022-05-07 14:31:27
+/* Smarty version 3.1.30, created on 2022-05-09 13:50:59
   from "D:\Programs\xampp\htdocs\banhngotanan\views\v_check_hoa_don.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_6276669fcd9be1_56371627',
+  'unifunc' => 'content_62790023e2e8d5_94004696',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1ba0a14ed023bfdf77ac15bf8708144a6c86297b' => 
     array (
       0 => 'D:\\Programs\\xampp\\htdocs\\banhngotanan\\views\\v_check_hoa_don.tpl',
-      1 => 1651195238,
+      1 => 1652097059,
       2 => 'file',
     ),
   ),
@@ -20,19 +20,18 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6276669fcd9be1_56371627 (Smarty_Internal_Template $_smarty_tpl) {
+function content_62790023e2e8d5_94004696 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
     <div id="bsm_contact">
         <div class="col-md-12 col-sm-12 col-xs-12 bsm_title_section" style="margin-top: 30px">
         <h1><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
 </h1>
-            <img src="public/img/divider.png" alt="">
         </div>
     </div>
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-                <img src="http://45.77.235.110/~chufarmc/public/img/error.jpg" alt="">
+                
             </div>
             <div class="col-lg-8">
                     <div class="row">

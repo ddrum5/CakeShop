@@ -6,7 +6,7 @@
                     <a href="." title="Trở về trang chủ">Trang chủ</a>
                     </li>
                 <li class="category4">
-                    <a href="" title="">{$hoa->TenLoai}</a>
+                    <a href="danh-sach-banh" title="">{$hoa->TenLoai}</a>
                     </li>
                 <li class="category22">
                     <strong>{$hoa->TenHoa}</strong>

@@ -1,7 +1,7 @@
 <div id="bsm_contact">
   <div class="col-md-12 col-sm-12 col-xs-12 bsm_title_section" style="margin-top: 30px">
     <h1>{$title_website}</h1>
-      <img src="public/img/divider.png" alt="">
+      {* <img src="public/img/divider.png" alt=""> *}
   </div>
 </div>
 <div class="container">

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.30, created on 2022-05-07 10:55:03
+/* Smarty version 3.1.30, created on 2022-05-08 08:32:27
   from "D:\Programs\xampp\htdocs\banhngotanan\views\chi_tiet_hoa\v_chi_tiet_hoa.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_627633e7c40cf5_03273839',
+  'unifunc' => 'content_627763fb05e1c5_89705081',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_627633e7c40cf5_03273839 (Smarty_Internal_Template $_smarty_tpl) {
+function content_627763fb05e1c5_89705081 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="col-md-5 product-left-block">
     <div class="product-name"><h1><?php echo $_smarty_tpl->tpl_vars['hoa']->value->TenHoa;?>

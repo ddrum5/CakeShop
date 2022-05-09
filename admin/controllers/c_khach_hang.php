@@ -24,7 +24,7 @@ class C_khach_hang
 
             $update = $m_khach_hang->update_khach_hang($maKH, $tenKH, $email, $dia_chi, $dienThoai, $matKhau, $matKhauCu);
             if ($update) {
-                $_SESSION['thongBaoThanhCong'] = "Cập nhật Loại bánh thành công";
+                $_SESSION['thongBaoThanhCong'] = "Cập nhật khách hàng thành công";
             }
             else {
                 $_SESSION['thongBao'] = "Cập nhật thất bại";
@@ -44,10 +44,10 @@ class C_khach_hang
 
             $update = $m_khach_hang->add_khach_hang( $gioiTinh, $tenKH, $email, $dia_chi, $dienThoai, $matKhau);
             if ($update) {
-                $_SESSION['thongBaoThanhCong'] = "Cập nhật Loại bánh thành công";
+                $_SESSION['thongBaoThanhCong'] = "Thêm khách hàng thành công";
             }
             else {
-                $_SESSION['thongBao'] = "Cập nhật thất bại";
+                $_SESSION['thongBao'] = "Thêm khách thất bại";
 
             }
 

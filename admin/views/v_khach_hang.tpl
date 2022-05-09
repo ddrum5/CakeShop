@@ -17,9 +17,8 @@
     </div>
   </div>
 </div>
-{include file="views/khach_hang/v_modal_them_kh.tpl" }
-
 <script src="public/js/ajax/ajax_delete_khach_hang.js"></script>
+
 {if isset($smarty.session.thongBao)}
   <script>
     swal("{$smarty.session.thongBao}");

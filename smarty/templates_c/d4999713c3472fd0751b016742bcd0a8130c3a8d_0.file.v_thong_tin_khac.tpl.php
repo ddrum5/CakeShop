@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.30, created on 2022-05-07 10:55:03
+/* Smarty version 3.1.30, created on 2022-05-08 08:32:27
   from "D:\Programs\xampp\htdocs\banhngotanan\views\chi_tiet_hoa\v_thong_tin_khac.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_627633e7cad297_60382435',
+  'unifunc' => 'content_627763fb0cbd51_93785504',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_627633e7cad297_60382435 (Smarty_Internal_Template $_smarty_tpl) {
+function content_627763fb0cbd51_93785504 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="col-md-7 ">
   <div class="product-right-block">

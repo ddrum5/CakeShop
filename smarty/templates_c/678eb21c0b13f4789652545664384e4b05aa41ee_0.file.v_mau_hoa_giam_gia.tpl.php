@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2022-05-07 10:49:01
+/* Smarty version 3.1.30, created on 2022-05-08 08:29:34
   from "D:\Programs\xampp\htdocs\banhngotanan\views\trang_chu\v_mau_hoa_giam_gia.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_6276327db68b38_39337275',
+  'unifunc' => 'content_6277634e59c2f8_29972805',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '678eb21c0b13f4789652545664384e4b05aa41ee' => 
     array (
       0 => 'D:\\Programs\\xampp\\htdocs\\banhngotanan\\views\\trang_chu\\v_mau_hoa_giam_gia.tpl',
-      1 => 1651740790,
+      1 => 1651986273,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6276327db68b38_39337275 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6277634e59c2f8_29972805 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div id="menu3" class="tab-pane fade in">
     <div class="category-products">
@@ -85,7 +85,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
 
         </ul>
         <div class="cta">
-            <button onclick="location.href='danh-sach-hoa'">Xem thêm bánh <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+            <button onclick="location.href='danh-sach-banh'">Xem thêm bánh <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
         </div>
     </div>
 </div>

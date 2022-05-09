@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2022-05-07 12:04:45
+/* Smarty version 3.1.30, created on 2022-05-08 08:29:34
   from "D:\Programs\xampp\htdocs\banhngotanan\views\trang_chu\v_mau_hoa_ban_chay.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_6276443d8d09a1_80852707',
+  'unifunc' => 'content_6277634e4f9dc3_56484173',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '175174d624d16e8f4e6963604dcd342d0cd1b71c' => 
     array (
       0 => 'D:\\Programs\\xampp\\htdocs\\banhngotanan\\views\\trang_chu\\v_mau_hoa_ban_chay.tpl',
-      1 => 1651917725,
+      1 => 1651986273,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6276443d8d09a1_80852707 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6277634e4f9dc3_56484173 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div id="menu2" class="tab-pane fade in">
     <div class="category-products">
@@ -57,8 +57,8 @@ foreach ($_from as $_smarty_tpl->tpl_vars['hoa_ban_chay']->value) {
                                         <span class="mua_online">Mua online:</span>
                                         <span class="price" id="product-minimal-price-2678"><?php ob_start();
 echo $_smarty_tpl->tpl_vars['hoa_ban_chay']->value->GiaKhuyenMai;
-$_prefixVariable1=ob_get_clean();
-echo number_format($_prefixVariable1);?>
+$_prefixVariable2=ob_get_clean();
+echo number_format($_prefixVariable2);?>
  ₫</span>
                                     </a>
                                 </div>
@@ -84,7 +84,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
 
         </ul>
         <div class="cta">
-            <button onclick="location.href='danh-sach-hoa'">Xem thêm bánh <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+            <button onclick="location.href='danh-sach-banh'">Xem thêm bánh <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
         </div>
     </div>
 </div>

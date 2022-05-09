@@ -6,7 +6,7 @@
                     <a href="." title="Trở về trang chủ">Trang chủ</a>
                 </li>
                 <li class="category4">
-                    <a href="danh-sach-hoa" title="">Danh sách bánh</a>
+                    <a href="danh-sach-banh" title="">Danh sách bánh</a>
                 </li>
                 {if isset($smarty.get.loai_hoa)}
                 <li class="category4">

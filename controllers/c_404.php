@@ -16,6 +16,6 @@ class C_404
         $smarty->assign('title', $title);
         $view = "views/v_404.tpl";
         include("c_smarty_info.php");
-        $smarty->display("gioi_thieu/layout.tpl");
+        $smarty->display("smarty/templates/smarty/templates/gioi_thieu/layout.tpl"); 
     }
 }

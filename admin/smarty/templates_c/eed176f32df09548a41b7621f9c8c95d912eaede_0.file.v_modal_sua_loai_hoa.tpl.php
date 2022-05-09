@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.30, created on 2022-05-07 16:19:43
+/* Smarty version 3.1.30, created on 2022-05-09 12:59:37
   from "D:\Programs\xampp\htdocs\banhngotanan\admin\views\loai_hoa\v_modal_sua_loai_hoa.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_62767fffc704b5_98948903',
+  'unifunc' => 'content_6278f4199dfe81_16968429',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_62767fffc704b5_98948903 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6278f4199dfe81_16968429 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <div class="modal fade" id="edit<?php echo $_smarty_tpl->tpl_vars['loai_hoa']->value->MaLoai;?>

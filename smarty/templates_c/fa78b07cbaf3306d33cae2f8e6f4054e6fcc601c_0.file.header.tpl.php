@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2022-05-07 17:15:41
+/* Smarty version 3.1.30, created on 2022-05-09 13:58:18
   from "D:\Programs\xampp\htdocs\banhngotanan\smarty\templates\layouts\header.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_62768d1de19a77_92818779',
+  'unifunc' => 'content_627901da1b7c70_23494974',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fa78b07cbaf3306d33cae2f8e6f4054e6fcc601c' => 
     array (
       0 => 'D:\\Programs\\xampp\\htdocs\\banhngotanan\\smarty\\templates\\layouts\\header.tpl',
-      1 => 1651936539,
+      1 => 1652097497,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_62768d1de19a77_92818779 (Smarty_Internal_Template $_smarty_tpl) {
+function content_627901da1b7c70_23494974 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <header class="row">
     
@@ -51,8 +51,18 @@ function content_62768d1de19a77_92818779 (Smarty_Internal_Template $_smarty_tpl)
                 <ul>
                     <?php if (isset($_SESSION['hoTen'])) {?>
                         <li>
-                            <a href="."> Xin Chào <?php echo $_SESSION['hoTen'];?>
- </a>
+                            
+                            <div class="dropdown_text">
+                                
+
+                                <a  class="dropbtn"> <b> <?php echo $_SESSION['hoTen'];?>
+ </b> </a>
+                                <div class="dropdown-content">
+                                    <a href="thong_tin_ca_nhan.php">Thông tin cá nhân</a>
+                                    <a href="lich_su_mua_hang.php">Lịch sử mua hàng</a>
+                                </div>
+                            </div>
+
                         </li>
                         <li>
                             <a data-toggle="modal" data-target="#exampleModal" href="">Đăng Xuất</a>
@@ -75,7 +85,7 @@ function content_62768d1de19a77_92818779 (Smarty_Internal_Template $_smarty_tpl)
                 <ul class="bsm_header_nav_left">
                     <li><a href=".">Trang chủ</a></li>
                     <li><a href="gioi_thieu.php">Giới thiệu</a></li>
-                    <li><a href="danh-sach-hoa">Danh sách bánh</a></li>
+                    <li><a href="danh-sach-banh">Danh sách bánh</a></li>
                 </ul>
             </nav>
         </div>

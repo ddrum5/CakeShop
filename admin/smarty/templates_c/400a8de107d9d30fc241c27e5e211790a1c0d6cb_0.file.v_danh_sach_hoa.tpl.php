@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.30, created on 2022-05-07 17:23:22
+/* Smarty version 3.1.30, created on 2022-05-09 17:07:55
   from "D:\Programs\xampp\htdocs\banhngotanan\admin\views\hoa\v_danh_sach_hoa.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_62768eeaa5cb34_87432372',
+  'unifunc' => 'content_62792e4b2b88d4_93506300',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:views/hoa/v_modal_sua_hoa.tpl' => 1,
   ),
 ),false)) {
-function content_62768eeaa5cb34_87432372 (Smarty_Internal_Template $_smarty_tpl) {
+function content_62792e4b2b88d4_93506300 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
   <thead>

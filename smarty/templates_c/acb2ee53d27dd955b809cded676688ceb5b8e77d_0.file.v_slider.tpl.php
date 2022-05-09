@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.30, created on 2022-05-07 10:49:01
+/* Smarty version 3.1.30, created on 2022-05-08 08:29:34
   from "D:\Programs\xampp\htdocs\banhngotanan\views\trang_chu\v_slider.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_6276327d926df8_00805007',
+  'unifunc' => 'content_6277634e37a7b3_61146554',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6276327d926df8_00805007 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6277634e37a7b3_61146554 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
     <div class="wrapper-page">
         <div class="wrap-body container">
