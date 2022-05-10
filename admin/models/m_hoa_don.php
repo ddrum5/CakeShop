@@ -32,4 +32,15 @@ class M_hoa_don extends database
         $this->setQuery($sql);
         return $this->loadAllRows();
     }
+
+
+    public function capNhatTrangThaiHoaDon($ma_hoa_don, $trang_thai)
+    { 
+        
+        $sql = "UPDATE hoa_don set  trang_thai = ? WHERE ma_hoa_don = ?";
+        $this->setQuery($sql);
+        return $this->execute(array($trang_thai, $ma_hoa_don));
+        
+    }
+   
 }

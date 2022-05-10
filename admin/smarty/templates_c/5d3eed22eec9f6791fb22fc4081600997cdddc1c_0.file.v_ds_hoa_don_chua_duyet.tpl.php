@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2022-05-09 17:32:27
+/* Smarty version 3.1.30, created on 2022-05-10 11:55:42
   from "D:\Programs\xampp\htdocs\banhngotanan\admin\views\index\v_ds_hoa_don_chua_duyet.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_6279340b9706b6_07635140',
+  'unifunc' => 'content_627a369e26aad3_02704960',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5d3eed22eec9f6791fb22fc4081600997cdddc1c' => 
     array (
       0 => 'D:\\Programs\\xampp\\htdocs\\banhngotanan\\admin\\views\\index\\v_ds_hoa_don_chua_duyet.tpl',
-      1 => 1652110240,
+      1 => 1652176073,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6279340b9706b6_07635140 (Smarty_Internal_Template $_smarty_tpl) {
+function content_627a369e26aad3_02704960 (Smarty_Internal_Template $_smarty_tpl) {
 if (!is_callable('smarty_modifier_date_format')) require_once 'D:\\Programs\\xampp\\htdocs\\banhngotanan\\admin\\smarty\\libs\\plugins\\modifier.date_format.php';
 ?>
  <div class="card-header">
@@ -65,19 +65,11 @@ foreach ($_from as $_smarty_tpl->tpl_vars['hoa_don']->value) {
                <td>Chưa xác nhận</td>
              <?php } elseif ($_smarty_tpl->tpl_vars['hoa_don']->value->trang_thai == 1) {?>
                <td>Đã xác nhận</td>
-
              <?php } elseif ($_smarty_tpl->tpl_vars['hoa_don']->value->trang_thai == 2) {?>
                <td>Đang giao hàng</td>
-
              <?php } else { ?>
                <td>Đã giao hàng</td>
-
-
-
              <?php }?>
-
-
-
              <td>
                <button type="button" onclick="updateAjax(<?php echo $_smarty_tpl->tpl_vars['hoa_don']->value->ma_hoa_don;?>
 )" class="btn btn-success">Xác nhận đơn

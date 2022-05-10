@@ -30,19 +30,11 @@
                <td>Chưa xác nhận</td>
              {elseif $hoa_don->trang_thai == 1}
                <td>Đã xác nhận</td>
-
              {elseif $hoa_don->trang_thai == 2}
                <td>Đang giao hàng</td>
-
              {else}
                <td>Đã giao hàng</td>
-
-
-
              {/if}
-
-
-
              <td>
                <button type="button" onclick="updateAjax({$hoa_don->ma_hoa_don})" class="btn btn-success">Xác nhận đơn
                  hàng</button>

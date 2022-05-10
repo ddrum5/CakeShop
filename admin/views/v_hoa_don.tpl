@@ -15,7 +15,7 @@
                 </tr>
               </thead>
               <tbody>
-                {foreach $doc_hoa_don as $hoa_don}
+                {foreach $doc_hoa_don as $hoa_don} 
                 <tr id="delete{$hoa_don->ma_hoa_don}">
                   <td>
                      <a href="chi_tiet_hoa_don.php?ma_hoa_don={$hoa_don->ma_hoa_don}" title="Xem chi tiết đơn hàng"target="_blank">
@@ -25,9 +25,17 @@
                   <td>{$hoa_don->ten_khach_hang}</td>
                   <td>{$hoa_don->ngay_dat|date_format:'%d-%m-%Y'}</td>
                   <td>{number_format($hoa_don->tong_thanh_tien)} đ</td>
-                  <td>{$hoa_don->trang_thai}</td>
+                  {if $hoa_don->trang_thai == 0}
+                    <td>Chưa xác nhận</td>
+                  {elseif $hoa_don->trang_thai == 1}
+                    <td>Đã xác nhận</td>
+                  {elseif $hoa_don->trang_thai == 2}
+                    <td>Đang giao hàng</td>
+                  {else}
+                    <td>Đã giao hàng</td>
+                  {/if}
                   <td>
-                  {if ($hoa_don->trang_thai) == 'Chưa xử lý'}
+                  {if ($hoa_don->trang_thai) == 0}
                       <button type="button" onclick="updateAjax({$hoa_don->ma_hoa_don})" class="btn btn-success">Xác nhận đơn hàng</button>
                   {/if}
                       <button type="button" onclick="deleteAjax({$hoa_don->ma_hoa_don})" class="btn btn-danger">Xóa</button>

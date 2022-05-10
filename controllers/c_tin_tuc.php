@@ -1,5 +1,6 @@
 <?php
-class C_tin_tuc
+session_start();
+class C_tin_tuc 
 {
   public function hien_thi_tin_tuc(){
     include("c_data_contact.php");
