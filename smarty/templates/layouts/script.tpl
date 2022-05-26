@@ -25,8 +25,8 @@
           var sl=$(".value").val();
           sl++;
           $(".value").val(sl);
-          if(sl>=10)
-            $(".value").val(10);
+          if(sl>=50)
+            $(".value").val(50);
       });
 </script>
 <script type="text/javascript">

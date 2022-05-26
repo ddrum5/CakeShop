@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2022-05-08 08:29:34
+/* Smarty version 3.1.30, created on 2022-05-22 04:42:13
   from "D:\Programs\xampp\htdocs\banhngotanan\smarty\templates\layouts\script.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_6277634e9764a9_41623311',
+  'unifunc' => 'content_6289a305c7afc9_45415234',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '59a1e1449c894fe035152025920e204871bf3656' => 
     array (
       0 => 'D:\\Programs\\xampp\\htdocs\\banhngotanan\\smarty\\templates\\layouts\\script.tpl',
-      1 => 1651908207,
+      1 => 1653187324,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6277634e9764a9_41623311 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6289a305c7afc9_45415234 (Smarty_Internal_Template $_smarty_tpl) {
 echo '<script'; ?>
  src="public/js/jquery.js"><?php echo '</script'; ?>
 >
@@ -79,8 +79,8 @@ echo '<script'; ?>
           var sl=$(".value").val();
           sl++;
           $(".value").val(sl);
-          if(sl>=10)
-            $(".value").val(10);
+          if(sl>=50)
+            $(".value").val(50);
       });
 <?php echo '</script'; ?>
 >

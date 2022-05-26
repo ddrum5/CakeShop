@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2022-05-08 08:25:34
+/* Smarty version 3.1.30, created on 2022-05-21 17:19:09
   from "D:\Programs\xampp\htdocs\banhngotanan\admin\smarty\templates\layouts\head.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_6277625ea1d941_00511484',
+  'unifunc' => 'content_628902edd36764_61981419',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2148621215cb335a0d6b277abc021eea2d5256af' => 
     array (
       0 => 'D:\\Programs\\xampp\\htdocs\\banhngotanan\\admin\\smarty\\templates\\layouts\\head.tpl',
-      1 => 1651746813,
+      1 => 1653146349,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6277625ea1d941_00511484 (Smarty_Internal_Template $_smarty_tpl) {
+function content_628902edd36764_61981419 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -38,7 +38,7 @@ function content_6277625ea1d941_00511484 (Smarty_Internal_Template $_smarty_tpl)
   <!-- Bootstrap core CSS-->
   <link href="public/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom fonts for this template-->
-  <link href="public/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="public/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> 
   <!-- Page level plugin CSS-->
   <link href="public/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
   <link href="public/css/print.css" rel="stylesheet" media="print">

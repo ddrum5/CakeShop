@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2022-05-08 08:25:34
+/* Smarty version 3.1.30, created on 2022-05-10 17:36:18
   from "D:\Programs\xampp\htdocs\banhngotanan\admin\views\v_dang_nhap.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_6277625eda01f1_01083818',
+  'unifunc' => 'content_627a86720518d3_60908943',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1e626812e3a3c641bbcc4da04f41f5dac6fe77ee' => 
     array (
       0 => 'D:\\Programs\\xampp\\htdocs\\banhngotanan\\admin\\views\\v_dang_nhap.tpl',
-      1 => 1651674325,
+      1 => 1652196976,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6277625eda01f1_01083818 (Smarty_Internal_Template $_smarty_tpl) {
+function content_627a86720518d3_60908943 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <body class="bg-dark">
   <div class="container">
@@ -33,7 +33,7 @@ function content_6277625eda01f1_01083818 (Smarty_Internal_Template $_smarty_tpl)
               placeholder="Nhập tài khoản" value="<?php if (isset($_POST['btn_dang_nhap'])) {
 echo $_POST['tai_khoan'];
 }?>"
-              autocomplete="off" required>
+              autocomplete="on" required>
           </div>
           <div class="form-group">
             <input class="form-control" name="mat_khau" id="matKhau" type="password" min="6" max="50"

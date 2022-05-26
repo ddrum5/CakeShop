@@ -15,12 +15,15 @@
 .clearfix:before, .clearfix:after { content: ''; display: table; }
 .clearfix:after { clear: both; }
 
+html{
+	font-family: 'Raleway', Arial, sans-serif;
+}
+
 body {
 	background: #e7ecea;
 	color: #74777b;
 	font-weight: 400;
 	font-size: 1em;
-	font-family: 'Raleway', Arial, sans-serif;
 }
 
 a {

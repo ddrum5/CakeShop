@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2022-05-08 08:29:34
+/* Smarty version 3.1.30, created on 2022-05-21 17:05:35
   from "D:\Programs\xampp\htdocs\banhngotanan\smarty\templates\layouts\head.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_6277634e1c88a5_31708462',
+  'unifunc' => 'content_6288ffbfe5c4d2_89792996',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '349ccf335aef1d2b0863ad1a576863596cc99e5e' => 
     array (
       0 => 'D:\\Programs\\xampp\\htdocs\\banhngotanan\\smarty\\templates\\layouts\\head.tpl',
-      1 => 1651746798,
+      1 => 1653145535,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6277634e1c88a5_31708462 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6288ffbfe5c4d2_89792996 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -47,7 +47,7 @@ function content_6277634e1c88a5_31708462 (Smarty_Internal_Template $_smarty_tpl)
 " />
   <meta property="og:title" content="<?php echo $_smarty_tpl->tpl_vars['title']->value;?>
  | <?php echo $_smarty_tpl->tpl_vars['title_website']->value;?>
-" />
+" /> 
   <meta property="og:description" content="<?php echo $_smarty_tpl->tpl_vars['description_website']->value;?>
 " />
   <meta property="og:image" content="<?php echo $_smarty_tpl->tpl_vars['image_seo']->value;?>
@@ -65,11 +65,8 @@ function content_6277634e1c88a5_31708462 (Smarty_Internal_Template $_smarty_tpl)
   <link rel="stylesheet" href="public/css/jquery.range.css">
   <link rel="stylesheet" href="public/css/responsive.css">
   <!-- STYLE FONTS -->
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Play" media="all" />
-  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400italic,700,700italic' rel='stylesheet'
-    type='text/css'>
-  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  
+  
   <!-- JS alert -->
   <?php echo '<script'; ?>
  src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"><?php echo '</script'; ?>

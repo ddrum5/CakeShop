@@ -8,6 +8,7 @@ class C_index
         
         include("models/m_index.php");
         $m_index = new M_index();
+        
         if ($_COOKIE['permission'] == 0 || $_COOKIE['permission'] == 1) {
             if (isset($_POST['hien_thi'])) {
                 $so_hoa_don_trong_ngay = $m_index->so_hoa_don_da_dat_trong_ngay();
@@ -18,16 +19,16 @@ class C_index
             }
         }
       
-        if ($_COOKIE['permission'] == 2) {
-            $hoa = $m_index->ds_hoa_het_hang();
-            $dem_hoa = $m_index->dem_hoa()->count;
-            $dem_loai_hoa = $m_index->dem_loai_hoa()->count;
-            $hoa_het_hang = $m_index->hoa_het_hang()->count;
-            $smarty->assign("dshoa", $hoa);
-            $smarty->assign("dem_hoa", $dem_hoa);
-            $smarty->assign("dem_loai_hoa", $dem_loai_hoa);
-            $smarty->assign("hoa_het_hang", $hoa_het_hang);
-        }
+        // if ($_COOKIE['permission'] == 2) {
+        //     $hoa = $m_index->ds_hoa_het_hang();
+        //     $dem_hoa = $m_index->dem_hoa()->count;
+        //     $dem_loai_hoa = $m_index->dem_loai_hoa()->count;
+        //     $hoa_het_hang = $m_index->hoa_het_hang()->count;
+        //     $smarty->assign("dshoa", $hoa);
+        //     $smarty->assign("dem_hoa", $dem_hoa);
+        //     $smarty->assign("dem_loai_hoa", $dem_loai_hoa);
+        //     $smarty->assign("hoa_het_hang", $hoa_het_hang);
+        // }
         
         include("Smarty_admin.php");
         $smarty = new Smarty_Admin();

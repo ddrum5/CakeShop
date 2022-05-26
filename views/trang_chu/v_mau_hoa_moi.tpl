@@ -6,8 +6,8 @@
                     <div class="category-products-grid">
                         <div class="images-container">
                             <div class="product-hover">
-                                <a href="san-pham/{$hoa_moi->TenHoa_URL}-{$hoa_moi->MaHoa}.html" style="max" title="{$hoa_moi->TenHoa}"
-                                    class="product-image">
+                                <a href="san-pham/{$hoa_moi->TenHoa_URL}-{$hoa_moi->MaHoa}.html" style="max"
+                                    title="{$hoa_moi->TenHoa}" class="product-image">
                                     <img class="img-responsive hinh_hoa" src="public/images/hoa/{$hoa_moi->Hinh}"
                                         alt="{$hoa_moi->TenHoa}">
                                 </a>

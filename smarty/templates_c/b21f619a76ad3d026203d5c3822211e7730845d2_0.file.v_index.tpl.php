@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2022-05-08 08:29:34
+/* Smarty version 3.1.30, created on 2022-05-21 17:55:03
   from "D:\Programs\xampp\htdocs\banhngotanan\views\v_index.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_6277634e2fac76_42023740',
+  'unifunc' => 'content_62890b57ba9e44_35792345',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b21f619a76ad3d026203d5c3822211e7730845d2' => 
     array (
       0 => 'D:\\Programs\\xampp\\htdocs\\banhngotanan\\views\\v_index.tpl',
-      1 => 1651916742,
+      1 => 1653148503,
       2 => 'file',
     ),
   ),
@@ -30,7 +30,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:views/v_gio_hang_ajax.tpl' => 1,
   ),
 ),false)) {
-function content_6277634e2fac76_42023740 (Smarty_Internal_Template $_smarty_tpl) {
+function content_62890b57ba9e44_35792345 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("file:views/trang_chu/v_slider.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
@@ -42,13 +42,13 @@ $_smarty_tpl->_subTemplateRender("file:views/trang_chu/v_slider.tpl", $_smarty_t
         <div class="block-title-tabs clearfix">
             <ul class="magictabs">
                 <li class="item active loaded">
-                    <span class="title" data-toggle="tab" href="#menu1">Bánh mới</span>
+                    <span style="font-size: 16px; color: #f6502f;" class="title" data-toggle="tab" href="#menu1">Bánh mới</span>
                 </li>
                 <li class="item" >
-                    <span class="title" data-toggle="tab" href="#menu2">Bánh bán chạy</span>
+                    <span style="font-size: 16px; color: #f6502f" class="title" data-toggle="tab" href="#menu2">Bánh bán chạy</span>
                 </li>
                 <li class="item">
-                    <span class="title" data-toggle="tab" href="#menu3">Bánh giảm giá</span>
+                    <span style="font-size: 16px ; color: #f6502f" class="title" data-toggle="tab" href="#menu3">Bánh giảm giá</span>
                 </li>
             </ul>
         </div>

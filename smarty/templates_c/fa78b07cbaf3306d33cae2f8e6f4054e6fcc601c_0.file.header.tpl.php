@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2022-05-10 14:07:04
+/* Smarty version 3.1.30, created on 2022-05-21 17:56:38
   from "D:\Programs\xampp\htdocs\banhngotanan\smarty\templates\layouts\header.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_627a556856feb0_15181560',
+  'unifunc' => 'content_62890bb603aee2_67452563',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fa78b07cbaf3306d33cae2f8e6f4054e6fcc601c' => 
     array (
       0 => 'D:\\Programs\\xampp\\htdocs\\banhngotanan\\smarty\\templates\\layouts\\header.tpl',
-      1 => 1652184416,
+      1 => 1653148597,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_627a556856feb0_15181560 (Smarty_Internal_Template $_smarty_tpl) {
+function content_62890bb603aee2_67452563 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <header class="row">
     
@@ -99,7 +99,7 @@ function content_627a556856feb0_15181560 (Smarty_Internal_Template $_smarty_tpl)
             <nav>
                 <ul class="bsm_header_nav_left">
                     <li><a href="tin-tuc.html">Tin Tức</a></li>
-                    <li><a href="check_hoa_don.php">Check hóa đơn</a></li>
+                    <li><a href="check_hoa_don.php">Tìm kiếm đơn hàng</a></li>
                     <li><a href="lien-he.html">Liên hệ</a></li>
                 </ul>
             </nav>

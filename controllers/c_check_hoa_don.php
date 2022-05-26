@@ -25,7 +25,7 @@ class C_check_hoa_don
         //View
         include("Smarty_shop_hoa.php");
         $smarty = new Smarty_Shop_Hoa();
-        $title = "Kiểm tra hóa đơn";
+        $title = "Tìm kiếm đơn hàng";
         $smarty->assign('title', $title);
         $view = "views/v_check_hoa_don.tpl";
         include("c_smarty_info.php");

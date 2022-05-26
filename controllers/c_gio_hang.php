@@ -9,7 +9,7 @@ class C_gio_hang
             include("models/m_banh.php");
             $m_banh=new M_banh();
             $hoa=$m_banh->doc_banh_theo_ma($_POST['MaHoa']);
-            if($_POST['sl'] > 10){
+            if($_POST['sl'] > 200){
                 echo 'loi';
                 return;
             }elseif ($_POST['sl'] > $hoa->SoLuongSP) {
@@ -67,7 +67,7 @@ class C_gio_hang
                         if($value > $hoa->SoLuongSP){
                             echo "loi_sl_$hoa->SoLuongSP";
                             return;
-                        }elseif ($value > 10) {
+                        }elseif ($value > 200) {
                             echo "loi";
                             return;
                         }

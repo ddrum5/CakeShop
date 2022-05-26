@@ -5,13 +5,13 @@
         <div class="block-title-tabs clearfix">
             <ul class="magictabs">
                 <li class="item active loaded">
-                    <span class="title" data-toggle="tab" href="#menu1">Bánh mới</span>
+                    <span style="font-size: 16px; color: #f6502f;" class="title" data-toggle="tab" href="#menu1">Bánh mới</span>
                 </li>
                 <li class="item" >
-                    <span class="title" data-toggle="tab" href="#menu2">Bánh bán chạy</span>
+                    <span style="font-size: 16px; color: #f6502f" class="title" data-toggle="tab" href="#menu2">Bánh bán chạy</span>
                 </li>
                 <li class="item">
-                    <span class="title" data-toggle="tab" href="#menu3">Bánh giảm giá</span>
+                    <span style="font-size: 16px ; color: #f6502f" class="title" data-toggle="tab" href="#menu3">Bánh giảm giá</span>
                 </li>
             </ul>
         </div>

@@ -10,7 +10,7 @@ class C_chi_tiet_hoa
         }
         include("models/m_chi_tiet_hoa.php");
         $m_chi_tiet_hoa = new M_chi_tiet_hoa();
-        $hoa = $m_chi_tiet_hoa->doc_theo_ma_hoa($id);
+        $hoa = $m_chi_tiet_hoa->doc_theo_ma_hoa($id); 
         $maLoai = $hoa->MaLoai;
         $hoa_cung_loai = $m_chi_tiet_hoa->doc_hoa_cung_loai($maLoai, $id);
         if(isset($_SESSION['makh'])){

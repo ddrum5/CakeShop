@@ -13,7 +13,7 @@
   <meta name="keywords" content="{$keywords_website}">
   <meta itemprop="image" content="{$image_seo}" />
   <meta property="og:url" itemprop="url" content="{$url_seo}" />
-  <meta property="og:title" content="{$title} | {$title_website}" />
+  <meta property="og:title" content="{$title} | {$title_website}" /> 
   <meta property="og:description" content="{$description_website}" />
   <meta property="og:image" content="{$image_seo}" />
   <!-- STYLE CSS -->
@@ -29,11 +29,11 @@
   <link rel="stylesheet" href="public/css/jquery.range.css">
   <link rel="stylesheet" href="public/css/responsive.css">
   <!-- STYLE FONTS -->
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Play" media="all" />
-  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400italic,700,700italic' rel='stylesheet'
+  {* <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Play" media="all" /> *}
+  {* <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400italic,700,700italic' rel='stylesheet'
     type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"> *}
   <!-- JS alert -->
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 

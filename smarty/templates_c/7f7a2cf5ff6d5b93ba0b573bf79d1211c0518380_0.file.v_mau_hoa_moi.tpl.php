@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2022-05-08 08:29:34
+/* Smarty version 3.1.30, created on 2022-05-21 17:32:31
   from "D:\Programs\xampp\htdocs\banhngotanan\views\trang_chu\v_mau_hoa_moi.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_6277634e452232_68646277',
+  'unifunc' => 'content_6289060f13e711_82764748',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7f7a2cf5ff6d5b93ba0b573bf79d1211c0518380' => 
     array (
       0 => 'D:\\Programs\\xampp\\htdocs\\banhngotanan\\views\\trang_chu\\v_mau_hoa_moi.tpl',
-      1 => 1651986273,
+      1 => 1653147033,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6277634e452232_68646277 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6289060f13e711_82764748 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div id="menu1" class="tab-pane fade in active">
     <div class="category-products">
@@ -36,9 +36,9 @@ foreach ($_from as $_smarty_tpl->tpl_vars['hoa_moi']->value) {
                             <div class="product-hover">
                                 <a href="san-pham/<?php echo $_smarty_tpl->tpl_vars['hoa_moi']->value->TenHoa_URL;?>
 -<?php echo $_smarty_tpl->tpl_vars['hoa_moi']->value->MaHoa;?>
-.html" style="max" title="<?php echo $_smarty_tpl->tpl_vars['hoa_moi']->value->TenHoa;?>
-"
-                                    class="product-image">
+.html" style="max"
+                                    title="<?php echo $_smarty_tpl->tpl_vars['hoa_moi']->value->TenHoa;?>
+" class="product-image">
                                     <img class="img-responsive hinh_hoa" src="public/images/hoa/<?php echo $_smarty_tpl->tpl_vars['hoa_moi']->value->Hinh;?>
 "
                                         alt="<?php echo $_smarty_tpl->tpl_vars['hoa_moi']->value->TenHoa;?>

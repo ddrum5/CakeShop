@@ -90,6 +90,8 @@ Version:	1.0
 -------------------------------------------------------------------*/
 
 html {
+  font-family: Arial, Helvetica, sans-serif;
+
   -o-user-select: none;
   -moz-user-select: none;
   -webkit-user-select: none;
@@ -101,7 +103,7 @@ body {
   padding: 0;
   margin: 0;
   font-size: 13px;
-  font-family: 'play', sans-serif;
+  /* /* .. */
   color: #555;
 }
 
@@ -281,7 +283,7 @@ p {
 
 .bsm_title_section h1 {
   color: #FA5999;
-  font-family: 'play', serif;
+  /* .. */
   font-size: 27px;
   text-transform: uppercase;
 }
@@ -292,7 +294,7 @@ p {
 
 .bsm_title_section p {
   font-size: 16px;
-  font-family: MuseoSans;
+  /* .. */
   color: #725754;
   font-weight: bold;
   line-height: 26px;
@@ -344,7 +346,7 @@ p {
 }
 
 #bsm_header_top_bar ul li {
-  font-family: 'play', serif;
+  /* .. */
   font-size: 13px;
   display: inline-block;
   position: relative;
@@ -508,7 +510,7 @@ p {
 
 #bsm_header_navigation .col-md-5 nav ul li a {
   color: #725754;
-  font-family: 'play', serif;
+  /* .. */
   font-size: 18px;
   text-transform: uppercase;
   margin: 0 11px;
@@ -705,14 +707,14 @@ p {
 
 #bsm_about_us .bsm_about_us_center .bsm_about_us_team .bsm_about_us_team_person .bsm_about_us_team_person_info h4 {
   color: #FA5999;
-  font-family: 'play', serif;
+  /* .. */
   font-size: 27px;
   text-transform: uppercase;
 }
 
 #bsm_about_us .bsm_about_us_center .bsm_about_us_team .bsm_about_us_team_person .bsm_about_us_team_person_info p {
   color: #725754;
-  font-family: MuseoSans;
+  /* .. */
   font-size: 12px;
   text-transform: uppercase;
 }
@@ -823,7 +825,7 @@ p {
 
 #bsm_before_contact_and_map .col-md-6 h1 {
   color: #D9C2A0;
-  font-family: 'play', serif;
+  /* .. */
   text-transform: uppercase;
   text-align: center;
   font-size: 26px;
@@ -831,7 +833,7 @@ p {
 }
 
 #bsm_before_contact_and_map .col-md-6:last-child h1 {
-  font-family: MuseoSans;
+  /* .. */
 }
 
 #bsm_contact_and_map {
@@ -892,7 +894,7 @@ p {
 
 #bsm_contact_and_map .col-md-6 .bsm_contact_and_map_form h3 {
   color: #FA5999;
-  font-family: 'play', serif;
+  /* .. */
   text-transform: uppercase;
   margin-bottom: 25px;
   margin-top: 25px;
@@ -912,7 +914,7 @@ p {
   background-color: transparent;
   padding: 0 15px;
   margin-bottom: 10px;
-  font-family: MuseoSans;
+  /* .. */
   color: #725754;
 }
 
@@ -1594,7 +1596,7 @@ footer {
   margin-bottom: 20px;
   padding: 20px 0 10px 0;
   font-size: 12px;
-  font-family: 'Roboto Condensed', sans-serif;
+  /* .. */
 }
 
 .title_box {
@@ -1866,7 +1868,7 @@ footer {
   position: relative;
   font-size: 14px;
   color: black;
-  font-family: sans-serif;
+  /* .. */
   width: 250px;
   /* Could be anything you like. */
 }
@@ -2058,7 +2060,7 @@ SS SHARE */
   -webkit-align-items: center;
   align-items: center;
   font-size: 16px;
-  font-family: cursive;
+  /* .. */
   text-transform: uppercase;
   font-weight: bold;
   position: relative;
@@ -2150,7 +2152,7 @@ th {
   background-color: #FBFAF9;
   padding: 0 15px;
   margin-bottom: 16px;
-  font-family: MuseoSans;
+  /* .. */
   color: #725754;
 }
 
@@ -2179,7 +2181,7 @@ th {
   -webkit-text-fill-color: transparent;
   text-align: center;
   padding: 100px 0;
-  font-family: "stratum", "Arial Narrow", "Trebuchet MS", sans-serif;
+  /* .. */
   font-weight: 700;
   letter-spacing: 3px;
   line-height: 1;
@@ -2196,7 +2198,7 @@ th {
   -webkit-text-fill-color: transparent;
   text-align: center;
   padding: 20px 0 50px 0;
-  font-family: "stratum", "Arial Narrow", "Trebuchet MS", sans-serif;
+  /* .. */
   font-weight: 700;
   letter-spacing: 3px;
   line-height: 1;
@@ -2459,7 +2461,7 @@ th {
 
 .block-custom-product .item .button.btn-cart:before {
   content: "\61";
-  font-family: "untitled-font-6" !important;
+  /* .. */
   font-style: normal !important;
   font-variant: normal !important;
   font-weight: normal !important;
@@ -3110,7 +3112,7 @@ a.detail_links {
 .item .actions-no .button.btn-cart:before,
 .actions .out-of-stock:before {
   content: "\61";
-  font-family: "untitled-font-6" !important;
+  /* .. */
   font-style: normal !important;
   font-variant: normal !important;
   font-weight: normal !important;
@@ -3322,7 +3324,7 @@ a.detail_links {
 
 .cms-page-banner .box-content .btn-shop:after {
   content: "\62";
-  font-family: "untitled-font-6" !important;
+  /* .. */
   font-size: 13px;
   width: 17px;
   height: 17px;
@@ -3459,7 +3461,7 @@ a.detail_links {
 
 .breadcrumbs li:before {
   content: "\71";
-  font-family: "untitled-font-6" !important;
+  /* .. */
   font-size: 15px;
   color: #d5d5d5;
   display: inline-block;
@@ -3542,7 +3544,7 @@ a.detail_links {
   margin: 0 0 15px;
   text-transform: capitalize;
   padding: 10px 10px 10px 0px;
-  font-family: monospace;
+  /* .. */
 }
 
 .product-view .product-shop .product-left-block {
@@ -4021,25 +4023,25 @@ button.button {
 .bttn-lg {
   padding: 8px 15px;
   font-size: 24px;
-  font-family: inherit;
+  /* .. */
 }
 
 .bttn-md {
   font-size: 20px;
-  font-family: inherit;
+  /* .. */
   padding: 5px 12px;
 }
 
 .bttn-sm {
   padding: 4px 10px;
   font-size: 16px;
-  font-family: inherit;
+  /* .. */
 }
 
 .bttn-xs {
   padding: 3px 8px;
   font-size: 12px;
-  font-family: inherit;
+  /* .. */
 }
 
 .bttn-fill {
@@ -4052,7 +4054,7 @@ button.button {
   cursor: pointer;
   position: relative;
   font-size: 20px;
-  font-family: inherit;
+  /* .. */
   padding: 5px 12px;
   z-index: 0;
   border: none;
@@ -4102,7 +4104,7 @@ button.button {
 .bttn-fill.bttn-xs {
   padding: 3px 8px;
   font-size: 12px;
-  font-family: inherit;
+  /* .. */
 }
 
 .bttn-fill.bttn-xs:hover,
@@ -4113,7 +4115,7 @@ button.button {
 .bttn-fill.bttn-sm {
   padding: 4px 10px;
   font-size: 16px;
-  font-family: inherit;
+  /* .. */
 }
 
 .bttn-fill.bttn-sm:hover,
@@ -4123,7 +4125,7 @@ button.button {
 
 .bttn-fill.bttn-md {
   font-size: 20px;
-  font-family: inherit;
+  /* .. */
   padding: 5px 12px;
 }
 
@@ -4135,7 +4137,7 @@ button.button {
 .bttn-fill.bttn-lg {
   padding: 8px 15px;
   font-size: 24px;
-  font-family: inherit;
+  /* .. */
 }
 
 .bttn-fill.bttn-lg:hover,
@@ -4180,7 +4182,7 @@ button.button {
   color: #D9C2A0;
   font-weight: bold;
   font-size: 16px;
-  font-family: MuseoSans;
+  /* .. */
   text-align: center;
   cursor: pointer;
   line-height: 30px;
@@ -4195,7 +4197,7 @@ button.button {
   color: #D9C2A0;
   font-weight: bold;
   font-size: 16px;
-  font-family: monospace;
+  /* .. */
 }
 
 .bsm_products_pagination span.active {
@@ -4259,7 +4261,7 @@ button.button {
 }
 
 .tong_sl {
-  font-family: monospace;
+  /* .. */
   margin-left: -3px;
   padding-top: 6px;
   font-size: 12px;
@@ -4772,7 +4774,7 @@ select {
   text-align: center;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: 'Raleway', sans-serif;
+  /* .. */
 }
 
 .login p {
@@ -4781,7 +4783,7 @@ select {
   line-height: 1.8em;
   margin: 0;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  /* .. */
 }
 
 .login p a {
@@ -4789,7 +4791,7 @@ select {
   text-decoration: none;
   font-size: 1.2em;
   padding: 0 .5em;
-  font-family: 'Raleway', sans-serif;
+  /* .. */
   margin: 0;
   font-weight: 700;
 }
@@ -4805,7 +4807,7 @@ select {
   text-transform: uppercase;
   margin: 0 0 2em;
   font-weight: 700;
-  font-family: 'Raleway', sans-serif;
+  /* .. */
 }
 
 .gioi_tinh {
@@ -4865,13 +4867,13 @@ select {
 
 .da_xem {
   font-size: 2em;
-  font-family: inherit;
+  /* .. */
   color: #FA5999 !important;
 }
 
 .cung_loai {
   font-size: 2em;
-  font-family: inherit;
+  /* .. */
   color: coral !important;
 }
 

@@ -179,10 +179,10 @@ function addProduct(MaHoa, sl) {
 }
 function hien_thi_loi_sl(sl) {
   swal({
-    title: "Lỗi!!",
+    // title: "Rất ",
     text: "Rất tiếc chỉ còn " + sl + " sản phẩm",
     icon: "warning",
-    dangerMode: true,
+    dangerMode: true, 
   })
 }
 function hien_thi_loi() {
